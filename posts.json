@@ -1,79 +1,24 @@
 [
   {
-    "title": "testing",
-    "stage": "harvested",
-    "tags": [
-      "test",
-      "tech"
-    ],
-    "content": "testing",
-    "links": [
-      "https://aniwatchtv.to/watch/naruto-677?ep=12468"
-    ],
-    "dates": {
-      "planted": "2025-09-24T09:07:04.537Z",
-      "growingStarted": "2025-09-24T09:07:40.849Z",
-      "harvestedOn": "2025-09-24T09:08:00.181Z",
-      "abandonedOn": null,
-      "lastUpdated": "2025-09-24T09:08:00.181Z"
-    },
-    "link": "harvested/testing.html"
-  },
-  {
-    "title": "test2",
-    "stage": "abandoned",
-    "tags": [
-      "test2"
-    ],
-    "content": "test2",
-    "links": [
-      "test2"
-    ],
-    "dates": {
-      "planted": "2025-09-24T09:08:53.129Z",
-      "growingStarted": null,
-      "harvestedOn": null,
-      "abandonedOn": "2025-09-24T09:09:12.405Z",
-      "lastUpdated": "2025-09-24T09:09:12.405Z"
-    },
-    "link": "abandoned/test2.html"
-  },
-  {
-    "title": "test3",
-    "stage": "abandoned",
-    "tags": [
-      "test3"
-    ],
-    "content": "test3",
-    "links": [
-      "test3"
-    ],
-    "dates": {
-      "planted": "2025-09-24T09:09:36.849Z",
-      "growingStarted": "2025-09-24T09:09:43.410Z",
-      "harvestedOn": null,
-      "abandonedOn": "2025-09-24T09:11:57.393Z",
-      "lastUpdated": "2025-09-24T09:11:57.393Z"
-    },
-    "link": "abandoned/test3.html"
-  },
-  {
-    "title": "test4",
+    "title": "Creating my Digital Garden: The first step",
     "stage": "seed",
     "tags": [
-      "test4"
+      "digital-garden",
+      "blog",
+      "writing",
+      "tech"
     ],
-    "content": "test4",
+    "content": "I came across the concept of digital gardening randomly one day while scrolling through Youtube. I found the concept really interesting and wanted to explore further. I read a few articles to understand it completely and also wrote an article myself. But I didn't actually made my own digital garden till now. Here I am after 3 month working on this again because this concept never truly left my mind. The idea of growing your thoughts and ideas bit by bit and in public was interesting and I want to give it shot. This is the first version of something bigger I'm planning to create in the next few months. ",
     "links": [
-      "test4"
+      "https://medium.com/@chhavidhankhar07/escaping-the-infinite-scroll-why-im-starting-a-digital-garden-35c9f70f922b"
     ],
     "dates": {
-      "planted": "2025-09-24T09:11:51.424Z",
+      "planted": "2025-09-24T11:21:37.919Z",
       "growingStarted": null,
       "harvestedOn": null,
       "abandonedOn": null,
-      "lastUpdated": "2025-09-24T09:11:51.424Z"
+      "lastUpdated": "2025-09-24T11:21:37.919Z"
     },
-    "link": "seeds/test4.html"
+    "link": "seeds/creating-my-digital-garden:-the-first-step.html"
   }
 ]
