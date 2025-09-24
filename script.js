@@ -23,7 +23,7 @@ function renderPosts(posts) {
 
   posts.forEach(post => {
     const card = document.createElement('div');
-    card.className = `border-2 border-${post.stage} rounded p-4 bg-white cursor-pointer hover:shadow-lg`;
+    card.className = `border-2 border-${post.stage} rounded p-4 bg-white cursor-pointer hover:shadow-lg hover:scale-105 transition`;
     card.innerHTML = `
       <h2 class="text-xl font-bold mb-2">${post.title}</h2>
       <p class="text-sm mb-2">Stage: <span class="font-semibold">${post.stage}</span></p>
