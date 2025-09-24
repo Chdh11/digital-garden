@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Chhavi's Garden</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            'serif': ['Georgia', 'serif'],
+                        },
+                        colors: {
+                            'seed': '#9ad98d',
+                            'growing': '#6ab559', 
+                            'harvested': '#2d8c18',
+                            'abandoned': '#a66b44'
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body class="bg-[#ede4cc]">
+        <!-- heading section -->
+        <section class="ml-20 mt-20">
+            <h1 class="text-6xl font-bold mb-5">Chhavi's Garden 🌱</h1>
+            <p class="mb-5 w-[700px]">Welcome to my very own digital garden where I plant my ideas (seeds) and nourish them to harvest polished, finished products/projects</p>
+            <!-- <button id="add-post-btn" class="px-3 py-1 bg-[#b8b8bf] rounded">+ Add Post</button> -->
+        </section>
+        <!-- all the content section -->
+        <section class="ml-20 mt-7">
+            <!-- filter out based on the growth stage -->
+            <div class="">
+                <ul class="flex flex-row gap-3 ">
+                    <button class="bg-[#b8b8bf] px-3 py-1 rounded">
+                        <!-- {image} -->
+                        All
+                    </button>
+                    <button class="bg-seed px-3 py-1 rounded">
+                        <!-- {image} -->
+                        Seed
+                    </button>
+                    <button class="bg-growing px-3 py-1 rounded">
+                        <!-- {image} -->
+                        Growing
+                    </button>
+                    <button class="bg-harvested px-3 py-1 rounded">
+                        <!-- {image} -->
+                        Harvested
+                    </button>
+                    <button class="bg-abandoned px-3 py-1 rounded">
+                        <!-- {image} -->
+                        Abandoned
+                    </button>
+                </ul>
+            </div>
+            <div>
+
+            </div>
+        </section>
+
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
