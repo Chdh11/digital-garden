@@ -1,7 +1,7 @@
 [
   {
     "title": "Creating my Digital Garden: The first step",
-    "stage": "seed",
+    "stage": "growing",
     "tags": [
       "digital-garden",
       "blog",
@@ -14,11 +14,11 @@
     ],
     "dates": {
       "planted": "2025-09-24T11:21:37.919Z",
-      "growingStarted": null,
+      "growingStarted": "2025-09-25T14:51:16.729Z",
       "harvestedOn": null,
       "abandonedOn": null,
-      "lastUpdated": "2025-09-24T11:21:37.919Z"
+      "lastUpdated": "2025-09-25T14:51:16.729Z"
     },
-    "link": "seeds/creating-my-digital-garden:-the-first-step.html"
+    "link": "growing/creating-my-digital-garden:-the-first-step.html"
   }
 ]
