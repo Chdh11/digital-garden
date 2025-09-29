@@ -20,20 +20,5 @@
       "lastUpdated": "2025-09-29T07:40:59.555Z"
     },
     "link": "growing/creating-my-digital-garden:-the-first-step.html"
-  },
-  {
-    "title": "test file for edit feature",
-    "stage": "harvested",
-    "tags": [],
-    "content": "\n                \n                testing 123\n                <h1>hahahha</h1>\n                <p>nononon</p>\n                \n            ",
-    "links": [],
-    "dates": {
-      "planted": "2025-09-28T15:28:14.062Z",
-      "growingStarted": "2025-09-28T17:04:41.449Z",
-      "harvestedOn": "2025-09-29T07:42:03.061Z",
-      "abandonedOn": null,
-      "lastUpdated": "2025-09-29T07:42:03.061Z"
-    },
-    "link": "harvested/test-file-for-edit-feature.html"
   }
 ]
