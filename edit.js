@@ -37,7 +37,7 @@ function syncHtmlToJson(posts) {
       });
 
       const contentElement = $("#content");
-      const newContent = contentElement.html(); // Gets innerHTML of <p id="content">
+      const newContent = contentElement.html(); // Gets innerHTML of <div id="content">
       const title = $("title").text().trim();
 
       console.log(`📄 File: ${file}`);
@@ -46,15 +46,30 @@ function syncHtmlToJson(posts) {
       console.log(`📏 Content length: ${newContent ? newContent.length : 0}`);
 
       if (!newContent) {
-        console.log(`⚠️ No content found in <p id="content"> for: ${file}`);
+        console.log(`⚠️ No content found in <div id="content"> for: ${file}`);
         return;
       }
 
       const post = posts.find(p => p.title === title);
 
       if (post) {
+        // Update the lastUpdated date
+        const updatedDate = new Date().toISOString().split('T')[0]; // Format: YYYY-MM-DD
         post.content = newContent;
         post.dates.lastUpdated = new Date().toISOString();
+        
+        // Update the date in the HTML file
+        const updatedSpan = $("#updated_date");
+        if (updatedSpan.length > 0) {
+          updatedSpan.html(`<b>Data Updated:</b> ${updatedDate}`);
+          
+          // Save the updated HTML back to the file
+          fs.writeFileSync(filePath, $.html(), "utf-8");
+          console.log(`📅 Updated date in HTML: ${updatedDate}`);
+        } else {
+          console.log(`⚠️ No <span id="updated_date"> found in: ${file}`);
+        }
+        
         console.log(`✅ Synced content for: ${title}\n`);
       } else {
         console.log(`⚠️ No matching post found in posts.json for file: ${file}\n`);
