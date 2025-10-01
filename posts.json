@@ -20,5 +20,24 @@
       "lastUpdated": "2025-10-01T07:08:07.051Z"
     },
     "link": "growing/creating-my-digital-garden:-the-first-step.html"
+  },
+  {
+    "title": "Rebuilding my Old Projects with New and Improved Skills",
+    "stage": "seed",
+    "tags": [
+      "projects",
+      "tech",
+      "learning"
+    ],
+    "content": "From past few months I have worked on a number of diverse tech-stack projects but at the time I was learning as I was building. Most of the projects falls into a very beginner category. Now that I'm well versed with some of that tech-stack, it make sense for me to go back and reflect on all of my coding stategies and techniques. This will do 2 things: help me apply and test my skills that I've been working on in the past few months, elevate those projects from beginner level to atleast intermediate. ",
+    "links": ["https://portfolio-nine-mu-gp7hkjfg80.vercel.app/"],
+    "dates": {
+      "planted": "2025-10-01T08:31:47.788Z",
+      "growingStarted": null,
+      "harvestedOn": null,
+      "abandonedOn": null,
+      "lastUpdated": "2025-10-01T08:31:47.788Z"
+    },
+    "link": "seeds/reworking-on-my-old-projects-with-my-new-and-improved-skills.html"
   }
 ]
