@@ -1,59 +1,61 @@
 <html>
-    <head>
-        <title>{{title}}</title>
-        <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
-        <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
-        <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script>
-            tailwind.config = {
-                theme: {
-                    extend: {
-                        fontFamily: {
-                            'serif': ['Georgia', 'serif'],
-                        }
+<head>
+    <title>{{title}}</title>
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'serif': ['Georgia', 'serif'],
                     }
                 }
             }
-        </script>
-    </head>
-    <body class="bg-[#ede4cc] ml-60 mr-60 mt-20 mb-20">
-        <!-- header -->
-        <section class=" mb-10">
-            <h1 class="text-5xl font-bold mb-5">
-                {{title}} 🌱
-            </h1>
-            <div class="flex flex-col gap-2">
-                <span><b>Growth Stage:</b> <b class="bg-[#9ad98d] px-3 py-1 rounded">Seed</b></span>
-                <span><b>Date Planted:</b> {{dates.planted}}</span>
-                <span id="updated_date"><b>Date Updated:</b> {{dates.lastUpdated}}</span>
-            </div>
-            <div class="mt-2">
-                {{tags}}</div>
-        </section>
+        }
+    </script>
+</head>
+<body class="bg-[#ede4cc]">
+  <div class="mx-auto my-20 px-10 md:px-20 lg:px-60">
+      
+      <!-- header -->
+      <section class="mb-10">
+          <h1 class="text-5xl font-bold mb-5">{{title}} 🌱</h1>
+          <div class="flex flex-col gap-2">
+              <span><b>Growth Stage:</b> <b class="bg-[#9ad98d] px-3 py-1 rounded">Seed</b></span>
+              <span><b>Date Planted:</b> {{dates.planted}}</span>
+              <span id="updated_date"><b>Date Updated:</b> {{dates.lastUpdated}}</span>
+          </div>
+          <div class="mt-2 flex flex-wrap gap-2">
+              {{tags}}
+          </div>
+      </section>
 
-        <!-- Initial content -->
-        <section class="mb-5">
-            <h3 class="text-2xl font-bold mb-3">Content</h3>
-            <div id="content">{{content}}</div>
-        </section>
+      <!-- Content -->
+      <section class="mb-5">
+          <h3 class="text-2xl font-bold mb-3">Content</h3>
+          <div id="content" class="prose max-w-full">{{content}}</div>
+      </section>
 
-        <!-- Links -->
-        <section class="mb-10">
-            <h3 class="text-2xl font-bold mb-5">References and Backlinks</h3>
-            {{links}}
-        </section>
+      <!-- References and Backlinks -->
+      <section class="mb-10">
+          <h3 class="text-2xl font-bold mb-5">References and Backlinks</h3>
+          <div class="prose max-w-full">
+              {{links}}
+          </div>
+      </section>
 
-        
-        
-        <!-- Comments -->
-        <!--<section class="w-[85vw] flex flex-col gap-2">
-            <h1 class="text-2xl">Comments</h1>
-            <textarea placeholder="Add a comment" class="rounded px-2 py-2"></textarea>
-            <div>
-                All Comments displayed!!!
-            </div>
-        </section>-->
-    </body>
+      <!-- Comments (optional) -->
+      <!--<section class="w-full flex flex-col gap-2">
+          <h1 class="text-2xl">Comments</h1>
+          <textarea placeholder="Add a comment" class="rounded px-2 py-2 w-full"></textarea>
+          <div>
+              All Comments displayed!!!
+          </div>
+      </section>-->
+  </div>
+</body>
 </html>
