@@ -17,7 +17,7 @@
       "growingStarted": "2025-09-25T14:51:16.729Z",
       "harvestedOn": null,
       "abandonedOn": null,
-      "lastUpdated": "2025-10-05T05:22:49.209Z"
+      "lastUpdated": "2025-10-05T06:01:58.121Z"
     },
     "link": "growing/creating-my-digital-garden:-the-first-step.html"
   },
@@ -49,15 +49,35 @@
       "books",
       "reading"
     ],
-    "content": "\n            <span class=\"font-semibold\">Currently Reading:</span>\n            <ul class=\"list-disc ml-6 mb-5\">\n                <li>Breasts and Eggs - Mieko Kawakami</li>\n            </ul>\n            <span class=\"font-semibold\">To be Read:</span>\n            <ul class=\"list-disc ml-6 mb-5\">\n                <li>All the lovers in the night - Mieko Kawakami</li>\n                <li>Heaven - Mieko Kawakami</li>\n                <li>The Trial - Franz Kafka</li>\n                <li>Butter - Asako Yuzuki</li>\n                <li>A Little Life - Hanya Yanagihara</li>\n                <li>Pachinko - Min Jin Lee</li>\n                <li>The Wind-Up Bird Chronicle</li>\n            </ul>\n            <span class=\"font-semibold\">Finished Reading:</span>\n            <ul class=\"list-disc ml-6 mb-5\">\n                <li></li>\n            </ul>\n          ",
+    "content": "\n            <span class=\"font-semibold\">Currently Reading:</span>\n            <ul class=\"list-disc ml-6 mb-5\">\n                <li>Breasts and Eggs - Mieko Kawakami</li>\n            </ul>\n            <span class=\"font-semibold\">To be Read:</span>\n            <ul class=\"list-disc ml-6 mb-5\">\n                <li>All the lovers in the night - Mieko Kawakami</li>\n                <li>Heaven - Mieko Kawakami</li>\n                <li>The Trial - Franz Kafka</li>\n                <li>Butter - Asako Yuzuki</li>\n                <li>A Little Life - Hanya Yanagihara</li>\n                <li>Pachinko - Min Jin Lee</li>\n                <li>The Wind-Up Bird Chronicle - Haruki Murakami</li>\n            </ul>\n            <span class=\"font-semibold\">Finished Reading:</span>\n            <ul class=\"list-disc ml-6 mb-5\">\n                <li></li>\n            </ul>\n          ",
     "links": [],
     "dates": {
       "planted": "2025-10-05T05:05:47.477Z",
       "growingStarted": null,
       "harvestedOn": null,
       "abandonedOn": null,
-      "lastUpdated": "2025-10-05T05:22:49.205Z"
+      "lastUpdated": "2025-10-05T06:01:58.118Z"
     },
     "link": "seeds/tbr.html"
+  },
+  {
+    "title": "\"Breasts and Eggs - Meiko Kawakami\" Review",
+    "stage": "seed",
+    "tags": [
+      "books",
+      "book-review",
+      "reading",
+      "japanese-literature"
+    ],
+    "content": "\n            5/10/25\n            <p>I just started listening to it as audiobook and just completed 3 chapters. This is a women centric book. we have a single, working, young women (Narrator) living in Tokyo; her sister (Makiko) who is a single mother reaching 40s who works as a hostess in the bars of Osaka with a Daughter (Midoriko) who might be arounf 11-12 because she haven't had her period yet and is stressing about it.\n            Exploring womenhood from different perspectives. Makiko is extremely insecure about her body to the point she is going through cosmetic procedures to alter it in some way and still is not satisfied by what she has. Her insecurities have mainly gotten the best of her after she gave birth and her body changed forever. She scrutinizies every part of her body and have developed body dysmorphia because of it. \n            Walking into any room and checking out women around her to project her insecurities on them. All of this is the direct effect of extreme white supremist beauty standards in East Asia that women are expected to maintain. The things which might be small and insignificant to others, can be huge to them. \n            On the other hand we have Midoriko, who is having a lot of feelings about the concept of menstruation and why women have to suffer through it. The idea to continue the cycle of life and become a mother doesn't resonates with her. Why would you want to bring another life into this cruel world just for it to suffer later just like they are suffering and why are women's highest accomplishment is considered becoming a mother.\n        </p>\n            \n          ",
+    "links": [],
+    "dates": {
+      "planted": "2025-10-05T05:35:18.634Z",
+      "growingStarted": null,
+      "harvestedOn": null,
+      "abandonedOn": null,
+      "lastUpdated": "2025-10-05T06:01:58.112Z"
+    },
+    "link": "seeds/\"breasts-and-eggs---meiko-kawakami\"-review.html"
   }
 ]
