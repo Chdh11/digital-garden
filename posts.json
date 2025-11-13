@@ -17,7 +17,7 @@
       "growingStarted": "2025-09-25T14:51:16.729Z",
       "harvestedOn": null,
       "abandonedOn": null,
-      "lastUpdated": "2025-10-05T06:06:18.042Z"
+      "lastUpdated": "2025-11-13T10:06:43.165Z"
     },
     "link": "growing/creating-my-digital-garden:-the-first-step.html"
   },
@@ -49,14 +49,14 @@
       "books",
       "reading"
     ],
-    "content": "\n            <span class=\"font-semibold\">Currently Reading:</span>\n            <ul class=\"list-disc ml-6 mb-5\">\n                <li>Breasts and Eggs - Mieko Kawakami</li>\n            </ul>\n            <span class=\"font-semibold\">To be Read:</span>\n            <ul class=\"list-disc ml-6 mb-5\">\n                <li>All the lovers in the night - Mieko Kawakami</li>\n                <li>Heaven - Mieko Kawakami</li>\n                <li>The Trial - Franz Kafka</li>\n                <li>Butter - Asako Yuzuki</li>\n                <li>A Little Life - Hanya Yanagihara</li>\n                <li>Pachinko - Min Jin Lee</li>\n                <li>The Wind-Up Bird Chronicle - Haruki Murakami</li>\n            </ul>\n            <span class=\"font-semibold\">Finished Reading:</span>\n            <ul class=\"list-disc ml-6 mb-5\">\n                <li></li>\n            </ul>\n          ",
+    "content": "\n            <span class=\"font-semibold\">Currently Reading:</span>\n            <ul class=\"list-disc ml-6 mb-5\">\n                <li>Heaven - Mieko Kawakami</li>\n            </ul>\n            <span class=\"font-semibold\">To be Read:</span>\n            <ul class=\"list-disc ml-6 mb-5\">\n                <li>The Trial - Franz Kafka</li>\n                <li>Butter - Asako Yuzuki</li>\n                <li>A Little Life - Hanya Yanagihara</li>\n                <li>Pachinko - Min Jin Lee</li>\n                <li>The Wind-Up Bird Chronicle - Haruki Murakami</li>\n            </ul>\n            <span class=\"font-semibold\">Finished Reading:</span>\n            <ul class=\"list-disc ml-6 mb-5\">\n                <li>Breasts and Eggs - Mieko Kawakami</li>\n                <li>All the lovers in the night - Mieko Kawakami</li>\n            </ul>\n          ",
     "links": [],
     "dates": {
       "planted": "2025-10-05T05:05:47.477Z",
       "growingStarted": null,
       "harvestedOn": null,
       "abandonedOn": null,
-      "lastUpdated": "2025-10-05T06:06:18.039Z"
+      "lastUpdated": "2025-11-13T10:06:43.161Z"
     },
     "link": "seeds/tbr.html"
   }
